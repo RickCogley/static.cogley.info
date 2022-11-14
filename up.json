@@ -7,7 +7,8 @@
   },
   "stages": {
     "staging": {
-      "domain": "staging.static.cogley.info"
+      "domain": "staging.static.cogley.info",
+      "runtime": "nodejs16.x"
     },
     "production": {
       "domain": "static.cogley.info",
@@ -15,7 +16,8 @@
         "warm": true,
         "endpoint": "regional",
         "memory": 1024,
-        "accelerate": true
+        "accelerate": true,
+        "runtime": "nodejs16.x"
       }
     }
   },
